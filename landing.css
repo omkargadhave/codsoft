@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav-1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #012247;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-1 i{
+    margin: 0 5px;
+}
+
+.nav-1 a{
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: orange;
+
+}
+
+.nav-2{
+    height: 80px;
+    width: 100%;
+    color: black;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+    justify-content: space-between;
+}
+
+.nav-2 a{
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0,0,0,0.7) 80%,rgba(65, 37, 175, 0.7)), url('Screenshot 2023-10-20 232740.png');
+   
+}
+
+.h-text{
+    max-width: 600px;
+    color: rgb(209, 200, 200);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.h-text h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-text span{
+    color: #e67e22;
+}
+
+
+.h-text p{
+    font-size: 30px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+
+.h-text a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+    background: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
